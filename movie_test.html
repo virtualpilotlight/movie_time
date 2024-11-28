@@ -10,20 +10,19 @@
     <h1 align="center">Movie?</h1>
     <figure id="videoContainer" data-fullscreen="false">
         <video id="video" controls preload="metadata">
-            <source src="movie.mp4" type="video/mp4">
-            <div id="video-controls" class="controls" data-state="hidden">
-                <button id="playpause" type="button" data-state="play">Play/Pause</button>
-                <button id="stop" type="button" data-state="stop">Stop</button>
-                <div class="progress">
-                    <progress id="progress" value="0" min="0">
-                        <span id="progress-bar"></span>
-                    </progress>
-                </div>
-                <button id="mute" type="button" data-state="mute">Mute/Unmute</button>
-                <button id="volinc" type="button" data-state="volup">Vol+</button>
-                <button id="voldec" type="button" data-state="voldown">Vol-</button>
-                <button id="fs" type="button" data-state="go-fullscreen">Fullscreen</button>
-            </div>
+            <source src="movie.mp4" type="video/mp4" />
+        </video>
+        <ul id="video-controls" class="controls">
+            <li><button id="play-pause" type="button">Play/Pause</button></li>
+            <li><button id="stop" type="button">Stop</button></li>
+            <li class="progress">
+              <progress id="progress" value="0" min="0"></progress>
+            </li>
+            <li><button id="mute" type="button">Mute/Unmute</button></li>
+            <li><button id="vol-inc" type="button">Vol+</button></li>
+            <li><button id="vol-dec" type="button">Vol-</button></li>
+            <li><button id="fs" type="button">Fullscreen</button></li>
+          </ul>          
     </figure>
 </body>
 </html>

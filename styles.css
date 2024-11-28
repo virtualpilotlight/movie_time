@@ -7,13 +7,13 @@ html, body {
 }
 
 body {
-    color: #666;
+    color: #de9dd1;
     background-color: #ccc;
     font-family: "Lucida Grande","Lucida Sans Unicode","DejaVu Sans",Lucida,Arial,Helvetica,sans-serif;
 }
 
 h1 {
-    color: #666;
+    color: #e185bc;
     font-size: 20px;
     font-size: 1.25rem;
     text-align: center;
@@ -22,12 +22,12 @@ h1 {
 }
 
 a {
-    color: #0095dd;
+    color: #970b5a;
     text-decoration: none;
 }
 
     a:hover, a:focus {
-        color: #2255aa;
+        color: #f179df;
         text-decoration: underline;
     }
 
@@ -42,18 +42,27 @@ figure {
     margin: 1.25rem auto;
     padding: 20px;
     padding: 1.051%;
-    background-color: #666;
+    background-color: #a478b9;
 }
 
 figcaption {
     display: block;
     font-size: 12px;
     font-size: 0.75rem;
-    color: #fff;
+    color: #cb24a1;
 }
 
 video {
     width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    color: #db67a9;
 }
 
 /* controls */
@@ -159,11 +168,11 @@ video {
         -moz-border-radius: 2px;
         -webkit-border-radius: 2px;
         border-radius: 2px;
-        color: #0095dd; /* Internet Explorer uses this value as the progress bar's value colour */
+        color: #b500dd; /* Internet Explorer uses this value as the progress bar's value colour */
     }
 
         .controls progress[data-state="fake"] {
-            background: #e6e6e6;
+            background: #ef74db;
             height: 65%;
         }
 
@@ -171,15 +180,15 @@ video {
             width: 0%;
             height: 100%;
             display: inline-block;
-            background-color: #2a84cd;
+            background-color: #b22acd;
         }
 
         .controls progress::-moz-progress-bar {
-            background-color: #0095dd;
+            background-color: #c000dd;
         }
         /* Chrome requires its own rule for this, otherwise it ignores it */
         .controls progress::-webkit-progress-value {
-            background-color: #0095dd;
+            background-color: #cc63e6;
         }
 
 /* fullscreen */
@@ -192,7 +201,7 @@ html:-ms-fullscreen {
 }
 
 video:-webkit-full-screen + .controls {
-    background: #ccc; /* required for Chrome which doesn't heed the transparent value set above */
+    background: #ea9fd7; /* required for Chrome which doesn't heed the transparent value set above */
 }
 
     video:-webkit-full-screen + .controls progress {
