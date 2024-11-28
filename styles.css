@@ -12,6 +12,24 @@ body {
     font-family: "Lucida Grande","Lucida Sans Unicode","DejaVu Sans",Lucida,Arial,Helvetica,sans-serif;
 }
 
+#topheartthing {
+ display: inline-block;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #555;
+    border-radius: 50%;
+}
+
+.smallCircle {
+    height: 50px;
+    width: 50px;
+    background-color: #e185bc;
+    border-radius: 50%;
+}
+
 h1 {
     color: #e185bc;
     font-size: 20px;
