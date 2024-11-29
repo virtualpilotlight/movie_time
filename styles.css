@@ -16,7 +16,10 @@ body {
  display: inline-block;
 }
 
-.circle {
+.circle-left {
+    position: absolute;
+    top: 50px;
+    left: 500px;
     height: 100px;
     width: 100px;
     background-color: #555;
@@ -24,7 +27,31 @@ body {
     border: solid 10px #a478b9;
 }
 
-.smallCircle {
+.circle-right {
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+    height: 100px;
+    width: 100px;
+    background-color: #555;
+    border-radius: 50%;
+    border: solid 10px #a478b9;
+}
+
+.smallCircle-left {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    height: 50px;
+    width: 50px;
+    background-color: #e185bc;
+    border-radius: 50%;
+}
+
+.smallCircle-right {
+    position: absolute;
+    top: 100px;
+    left: 1000px;
     height: 50px;
     width: 50px;
     background-color: #e185bc;
