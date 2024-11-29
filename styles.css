@@ -58,6 +58,27 @@ body {
     border-radius: 50%;
 }
 
+.heartCircle-right {
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    height: 50px;
+    width: 50px;
+    /* background-color: #e185bc; */
+    background-color: #555;
+    border-radius: 50%;
+}
+
+.heartCircle-left {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    height: 50px;
+    width: 50px;
+    background-color: #e185bc;
+    border-radius: 50%;
+}
+
 .triangle {
     width: 0;
     height: 0;
